@@ -1,0 +1,37 @@
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	display:  inline;
+	background: red;
+	width:  300px;
+}
+section {
+	background: blue;
+}
+.container {
+	 max-width: 1200px;
+	 width:  100%;
+	 margin:  20px auto;
+	/* background: green;*/
+}
+.d-inline-block {
+	display: inline-block;
+/*	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom:  15px;*/
+	margin: 0 20px 0 0;
+}
+.d-inline-block p{
+	width:  300px;
+	display: inline-block;
+	vertical-align: middle;
+	margin:  0;
+}
+.d-inline-block img {
+	width : 150px;
+	vertical-align: middle;
+}
